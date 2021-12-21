@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ChallengeTwoRepo;
 
 namespace ChallengeTwoConsole
 {
@@ -10,6 +11,10 @@ namespace ChallengeTwoConsole
     {
         static void Main(string[] args)
         {
+
+            ChallengeTwoUI challengeTwoUI = new ChallengeTwoUI();
+            challengeTwoUI.Run();
+
         }
     }
 }

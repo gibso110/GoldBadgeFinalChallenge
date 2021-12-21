@@ -1,0 +1,10 @@
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoConsole\bin\Debug\ChallengeTwoConsole.exe.config
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoConsole\bin\Debug\ChallengeTwoConsole.exe
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoConsole\bin\Debug\ChallengeTwoConsole.pdb
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoConsole\bin\Debug\ChallengeTwoRepo.dll
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoConsole\bin\Debug\ChallengeTwoRepo.pdb
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoConsole\obj\Debug\ChallengeTwoConsole.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoConsole\obj\Debug\ChallengeTwoConsole.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoConsole\obj\Debug\ChallengeTwoConsole.csproj.CopyComplete
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoConsole\obj\Debug\ChallengeTwoConsole.exe
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoConsole\obj\Debug\ChallengeTwoConsole.pdb
