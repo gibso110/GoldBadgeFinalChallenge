@@ -3,3 +3,4 @@ C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoRepo\bin\Debug\Ch
 C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoRepo\obj\Debug\ChallengeTwoRepo.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoRepo\obj\Debug\ChallengeTwoRepo.dll
 C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoRepo\obj\Debug\ChallengeTwoRepo.pdb
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeTwoRepo\obj\Debug\ChallengeTwoRepo.csproj.AssemblyReference.cache

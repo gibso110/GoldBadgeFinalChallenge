@@ -1,9 +1,6 @@
-﻿using System;
+﻿using ChallengeTwoRepo;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ChallengeTwoRepo;
 
 namespace ChallengeTwoConsole
 {
@@ -36,7 +33,7 @@ namespace ChallengeTwoConsole
                    "1. See all claims.\n" +
                    "2. Take Care of next claim\n" +
                    "3. Enter new claim.\n" +
-                   "4. Exit the program\n" );
+                   "4. Exit the program\n");
 
                 string input = Console.ReadLine();
 
@@ -68,9 +65,9 @@ namespace ChallengeTwoConsole
             }
 
 
-           
 
-           
+
+
         }
 
 
@@ -81,34 +78,34 @@ namespace ChallengeTwoConsole
             Console.Clear();
             Queue<Claims> currentClaims = _RepoForClaims._showClaims();
 
-            
+
 
             foreach (Claims claim in currentClaims)
             {
-               var DateOfAccidentNoTime = claim.DateOfAccident.ToString("M/d/yyyy");
-               var DateOfClaimNoTime = claim.DateOfClaim.ToString("M/d/yyyy");
+                var DateOfAccidentNoTime = claim.DateOfAccident.ToString("M/d/yyyy");
+                var DateOfClaimNoTime = claim.DateOfClaim.ToString("M/d/yyyy");
 
                 Console.WriteLine($"ClaimID\t Type\t Description\t\t Amount\t DateOfAccident\t DateOfClaim\t IsValid\n" +
                     $"{claim.ClaimID}\t {claim.ClaimType}\t {claim.Description}\t ${claim.ClaimAmount}\t {DateOfAccidentNoTime}\t {DateOfClaimNoTime}\t {claim.isValid}\n");
-                
+
 
             }
         }
 
         //Create a new claim
-        private void CreateNewClaim() 
+        private void CreateNewClaim()
         {
             Claims newClaim = new Claims();
 
             Console.WriteLine("What type of claim is this: car, home, or theft?");
             string typeOfClaim = Console.ReadLine().ToLower();
-            
+
 
             if (typeOfClaim == "car")
             {
                 newClaim.ClaimType = typeOfClaim;
             }
-            else if(typeOfClaim == "home") 
+            else if (typeOfClaim == "home")
             {
                 newClaim.ClaimType = typeOfClaim;
             }
@@ -149,7 +146,7 @@ namespace ChallengeTwoConsole
         }
 
         //Take Care of claim
-       private void DequeueNextClaim()
+        private void DequeueNextClaim()
         {
             Console.Clear();
             Queue<Claims> currentClaims = _RepoForClaims._showClaims();
@@ -159,7 +156,7 @@ namespace ChallengeTwoConsole
             Console.WriteLine($"ClaimID\t Type\t Description\t\t Amount\t DateOfAccident\t DateOfClaim\t IsValid\n" +
                     $"{currentClaims.Peek().ClaimID}\t {currentClaims.Peek().ClaimType}\t {currentClaims.Peek().Description}\t ${currentClaims.Peek().ClaimAmount}\t {DateOfAccidentNoTime}\t {DateOfClaimNoTime}\t {currentClaims.Peek().isValid}\n" +
                     $"Do you want to deal with this claim now? Y/N");
-            
+
             string dealWithClaim = Console.ReadLine().ToLower();
 
             if (dealWithClaim == "y")
@@ -182,7 +179,7 @@ namespace ChallengeTwoConsole
 
 
 
-           
+
 
         }
 

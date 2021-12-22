@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ChallengeTwoRepo
 {
@@ -56,33 +53,33 @@ namespace ChallengeTwoRepo
         }
 
 
-            //R
-            //read all items in queue
-             public Queue<Claims> _showClaims()
-            {
-                return _ClaimsQueue;
-            }
+        //R
+        //read all items in queue
+        public Queue<Claims> _showClaims()
+        {
+            return _ClaimsQueue;
+        }
 
-            //Claims by Claim ID
+        //Claims by Claim ID
 
-             Claims ClaimByIDNumber(int id)
+        public Claims ClaimByIDNumber(int id)
+        {
+            foreach (Claims oldClaim in _ClaimsQueue)
             {
-                foreach (Claims oldClaim in _ClaimsQueue)
+                if (oldClaim.ClaimID == id)
                 {
-                    if (oldClaim.ClaimID == id)
-                    {
-                        return oldClaim;
-
-                    }
-
-
+                    return oldClaim;
 
                 }
-                _showClaims();
-                Console.WriteLine("Please enter a valid claim ID Number");
-                return null;
+
+
 
             }
+            _showClaims();
+            Console.WriteLine("Please enter a valid claim ID Number");
+            return null;
+
         }
+    }
 
 }

@@ -1,0 +1,10 @@
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeThreeConsole\bin\Debug\ChallengeThreeConsole.exe.config
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeThreeConsole\bin\Debug\ChallengeThreeConsole.exe
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeThreeConsole\bin\Debug\ChallengeThreeConsole.pdb
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeThreeConsole\bin\Debug\ChallengeThreeRepo.dll
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeThreeConsole\bin\Debug\ChallengeThreeRepo.pdb
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeThreeConsole\obj\Debug\ChallengeThreeConsole.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeThreeConsole\obj\Debug\ChallengeThreeConsole.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeThreeConsole\obj\Debug\ChallengeThreeConsole.csproj.CopyComplete
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeThreeConsole\obj\Debug\ChallengeThreeConsole.exe
+C:\ElevenFiftyProjects\Challenges\ChallengeOneRepo\ChallengeThreeConsole\obj\Debug\ChallengeThreeConsole.pdb
