@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ChallengeThreeRepo
 {
@@ -27,7 +25,7 @@ namespace ChallengeThreeRepo
         public double CostPerPerson { get; set; }
         public double CostForEvent { get; set; }
     }
-   
+
 
     public class KomodoOutingsMethods
     {
@@ -37,7 +35,7 @@ namespace ChallengeThreeRepo
 
         public void CreateNewOuting(Outings newOuting)
         {
-            if(newOuting != null)
+            if (newOuting != null)
             {
                 _komodoOutingsList.Add(newOuting);
             }
@@ -68,14 +66,28 @@ namespace ChallengeThreeRepo
         //Display event costs by type
         public void OutingCostByEventType(string eventType)
         {
-            foreach(Outings outing in _komodoOutingsList)
+            List<Outings> _eventOfSameType = new List<Outings>();
+            foreach (Outings outing in _komodoOutingsList)
             {
-                if(outing.EventType == eventType)
+
+
+                if (outing.EventType == eventType)
                 {
-                    double total = _komodoOutingsList.Sum(Outings => Outings.CostForEvent);
-                    Console.WriteLine($"The total cost for all {eventType} type outings is ${total}");
+
+
+
+                    _eventOfSameType.Add(outing);
+
+
+
+
+                    //double total = _komodoOutingsList.Sum(Outings => Outings.CostForEvent);
+
                 }
+
             }
+            double sumOfOutings = _eventOfSameType.Sum(Outings => Outings.CostForEvent);
+            Console.WriteLine($"The total cost for all {eventType} type outings is ${sumOfOutings}");
         }
 
 

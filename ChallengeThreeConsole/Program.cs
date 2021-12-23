@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ChallengeThreeConsole
+﻿namespace ChallengeThreeConsole
 {
     class Program
     {
         static void Main(string[] args)
         {
-        ChallengeThreeUI challengeThreeUI = new ChallengeThreeUI();
+            ChallengeThreeUI challengeThreeUI = new ChallengeThreeUI();
 
             challengeThreeUI.run();
 
-            
+
         }
-}
+    }
 }

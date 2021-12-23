@@ -1,9 +1,6 @@
-﻿using System;
+﻿using ChallengeThreeRepo;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ChallengeThreeRepo;
 
 namespace ChallengeThreeConsole
 {
@@ -81,7 +78,7 @@ namespace ChallengeThreeConsole
                 string outingDate = outing.DateOfEvent.ToString("M/d/yyyy");
 
                 Console.WriteLine($"{outing.EventType}\t\t {outing.NumberInAttendance}\t\t {outingDate}\t ${outing.CostPerPerson}\t\t\t ${outing.CostForEvent}\n");
-                
+
             }
             Console.WriteLine("Press any key to return to the main menu...");
             Console.ReadKey();
@@ -91,6 +88,8 @@ namespace ChallengeThreeConsole
 
         public void AddNewEvent()
         {
+
+            Console.Clear();
             Outings newOuting = new Outings();
 
             Console.WriteLine("What type of event is this? 1.Golf\t 2.Bowling\t 3.Amusement Park\t 4.Concert:");
@@ -133,12 +132,18 @@ namespace ChallengeThreeConsole
         }
         public void CombindedOutingsCost()
         {
+            Console.Clear();
             _komodoOutingsMethods.CominedCostOfOutings();
+            Console.Write("Press any key to return to the main menu...");
+            Console.ReadKey();
+            Console.Clear();
+
         }
 
 
         public void OutingCostByEventType()
         {
+            Console.Clear();
             string eventType = "";
 
             Console.WriteLine("What type of event would you like to see the total costs for?\n" +
@@ -167,11 +172,12 @@ namespace ChallengeThreeConsole
 
 
             _komodoOutingsMethods.OutingCostByEventType(eventType);
+
         }
 
         public void seedEvents()
         {
-            
+
 
             Outings golfOuting = new Outings("Golf", 100, DateTime.Now, 5, 500);
 
